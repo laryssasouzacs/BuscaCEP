@@ -4,25 +4,31 @@
     box-sizing: border-box;
 }
 
+/*BODY*/
+
 body {
-    font-family: "Inter", sans-serif;
-    background-color: #f8fafc;
-    color: #1e293b;
+    min-height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 100vh;
     padding: 24px;
+    background-color: #f8fafc;
+    font-family: "Inter", sans-serif;
+    color: #1e293b;
 }
+
+/*CONTAINER*/
 
 .container {
     width: 100%;
     max-width: 500px;
-    background: #ffffff;
+    background-color: #ffffff;
     padding: 32px;
     border-radius: 16px;
-    box-shadow: 0 10px 30px rgba(15, 23, 42, 0.08);
+    box-shadow: 0 12px 30px rgba(15, 23, 42, .08);
 }
+
+/*CABEÇALHO*/
 
 .cabecalho {
     text-align: center;
@@ -31,15 +37,15 @@ body {
 
 .cabecalho h1 {
     font-size: 2rem;
-    font-weight: 700;
-    margin-bottom: 8px;
+    margin-bottom: 10px;
 }
 
 .cabecalho p {
     color: #64748b;
-    font-size: 0.95rem;
-    line-height: 1.5;
+    line-height: 1.6;
 }
+
+/*FORMULÁRIO*/
 
 .caixa-busca {
     display: flex;
@@ -58,45 +64,93 @@ body {
     border: 1px solid #cbd5e1;
     border-radius: 10px;
     font-size: 1rem;
-    transition: .2s;
+    transition: .25s;
 }
 
 .caixa-busca input:focus {
     outline: none;
     border-color: #2563eb;
-    box-shadow: 0 0 0 4px rgba(37, 99, 235, 0.15);
+    box-shadow: 0 0 0 4px rgba(37, 99, 235, .15);
 }
 
-.caixa-busca button {
-    padding: 14px;
+/*BOTÕES*/
+
+button {
     border: none;
     border-radius: 10px;
-    background: #2563eb;
-    color: white;
+    padding: 14px;
     font-size: 1rem;
     font-weight: 600;
     cursor: pointer;
-    transition: .2s;
+    transition: .25s;
 }
 
-.caixa-busca button:hover {
-    background: #1d4ed8;
+/*Botão Buscar*/
+
+#botao-buscar {
+    background-color: #2563eb;
+    color: #ffffff;
 }
+
+#botao-buscar:hover {
+    background-color: #1d4ed8;
+}
+
+/*Ações*/
+
+.acoes {
+    display: flex;
+    gap: 12px;
+    margin-top: 20px;
+}
+
+.acoes button {
+    flex: 1;
+}
+
+/*Botão Copiar*/
+
+#botao-copiar {
+    background-color: #16a34a;
+    color: white;
+}
+
+#botao-copiar:hover {
+    background-color: #15803d;
+}
+
+/*Botão Limpar*/
+
+#botao-limpar {
+    background-color: #e2e8f0;
+    color: #334155;
+}
+
+#botao-limpar:hover {
+    background-color: #cbd5e1;
+}
+
+/*RESULTADO*/
 
 .resultado {
     margin-top: 32px;
+    min-height: 140px;
     padding: 20px;
+    background-color: #f8fafc;
     border: 1px solid #e2e8f0;
     border-radius: 12px;
-    background: #f8fafc;
-    min-height: 120px;
 }
 
 .resultado p {
-    margin-bottom: 10px;
-    color: #334155;
+    margin-bottom: 12px;
     line-height: 1.6;
 }
+
+.resultado strong {
+    color: #1e293b;
+}
+
+/*RESPONSIVIDADE*/
 
 @media (max-width: 480px) {
 

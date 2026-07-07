@@ -18,12 +18,19 @@
             <h1>BuscaCEP</h1>
             <p>Consulte um endereço brasileiro de forma rápida e prática.</p>
         </header>
-        <form class="caixa-busca">
+
+        <form id="form-busca" class="caixa-busca">
             <label for="campo-cep">CEP</label>
-            <input type="text" id="campo-cep" placeholder="Ex.: 01001-000" maxlength="9">
-            <button id="botao-buscar" type="button">Buscar</button>
+            <input type="text" id="campo-cep" placeholder="Ex.: 01001-000" maxlength="9" autocomplete="off">
+            <button type="submit" id="botao-buscar">Buscar</button>
         </form>
+
         <section id="resultado" class="resultado"></section>
+
+        <div class="acoes">
+            <button id="botao-copiar" type="button">Copiar endereço</button>
+            <button id="botao-limpar" type="button">Limpar</button>
+        </div>
     </main>
 
     <script src="js/script.js"></script>
