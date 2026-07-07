@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BuscaCEP</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <main class="container">
+        <header class="cabecalho">
+            <h1>BuscaCEP</h1>
+            <p>Consulte um endereço brasileiro de forma rápida e prática.</p>
+        </header>
+        <form class="caixa-busca">
+            <label for="campo-cep">CEP</label>
+            <input type="text" id="campo-cep" placeholder="Ex.: 01001-000" maxlength="9">
+            <button id="botao-buscar" type="button">Buscar</button>
+        </form>
+        <section id="resultado" class="resultado"></section>
+    </main>
+
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>

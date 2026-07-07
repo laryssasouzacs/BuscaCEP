@@ -1,0 +1,15 @@
+Nome: BuscaCEP
+Descrição: Consulte endereços brasileiros de forma rápida e prática.
+Objetivo: Uma aplicação simples para consultar endereços por CEP, com uma boa experiência de uso.
+
+Identidade visual:
+Elemento	      Cor
+Fundo	          #F8FAFC
+Card	          #FFFFFF
+Cor principal	  #2563EB
+Texto	          #1E293B
+Texto secundário  #64748B
+Borda	          #E2E8F0
+Erro	          #DC2626
+Sucesso        	  #16A34A
+
