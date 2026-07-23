@@ -1,19 +1,15 @@
-# 📍 BuscaCEP
+# 🗺️ BuscaCEP
 
-**Projeto Refatorado:** Evolução de um trabalho do curso Técnico em Desenvolvimento de Sistemas para compor o portfólio.
-
----
+**Projeto Refatorado:** Evolução de um trabalho do curso Técnico em Desenvolvimento de Sistemas para compor o portfólio.  
 
 ## Links
 * **Acesse:** [BuscaCEP no GitHub Pages](https://laryssasouzacs.github.io/BuscaCEP/)
 * **Repositório:** [github.com/laryssasouzacs/BuscaCEP](https://github.com/laryssasouzacs/BuscaCEP.git)
-
----
+<br></br>
 
 ## Sobre o Projeto
 Aplicação web para consulta rápida de endereços brasileiros via API **ViaCEP**. O projeto passou por uma refatoração focada em modernização visual, organização de código e melhoria na experiência do usuário (UX).
-
----
+<br></br>
 
 ## Principais Recursos & Melhorias
 - **Interface & Layout:** Design redesenhado, moderno e 100% responsivo.
@@ -22,15 +18,13 @@ Aplicação web para consulta rápida de endereços brasileiros via API **ViaCEP
   - Consulta ao pressionar *Enter* e tratamento de erros.
   - Botões rápidos para **copiar o endereço** e **limpar a busca**.
 - **Código:** HTML semântico e estrutura JS reorganizada.
-
----
+<br></br>
 
 ## Tecnologias Utilizadas
 - **HTML5** & **CSS3**
 - **JavaScript (Vanilla)**
 - **API ViaCEP**
-
----
+<br></br>
 
 ## Antes e depois
 
