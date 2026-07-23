@@ -1,14 +1,34 @@
-# BuscaCEP
+# 📍 BuscaCEP
 
-Aplicação web para consulta de endereços brasileiros a partir do CEP.
+**Projeto Refatorado:** Evolução de um trabalho do curso Técnico em Desenvolvimento de Sistemas para compor o portfólio.
 
-## Sobre o projeto
+---
 
-O **BuscaCEP** foi desenvolvido a partir da refatoração de um projeto criado durante o curso **Técnico em Desenvolvimento de Sistemas**.
+## Links
+* **Acesse:** [BuscaCEP no GitHub Pages](https://laryssasouzacs.github.io/BuscaCEP/)
+* **Repositório:** [github.com/laryssasouzacs/BuscaCEP](https://github.com/laryssasouzacs/BuscaCEP.git)
 
-O objetivo desta nova versão foi modernizar a interface, reorganizar o código e melhorar a experiência do usuário, aplicando conhecimentos adquiridos após a conclusão do curso.
+---
 
-A aplicação permite consultar endereços utilizando a API ViaCEP de forma rápida e simples.
+## Sobre o Projeto
+Aplicação web para consulta rápida de endereços brasileiros via API **ViaCEP**. O projeto passou por uma refatoração focada em modernização visual, organização de código e melhoria na experiência do usuário (UX).
+
+---
+
+## Principais Recursos & Melhorias
+- **Interface & Layout:** Design redesenhado, moderno e 100% responsivo.
+- **Funcionalidades:** 
+  - Máscara e validação de CEP.
+  - Consulta ao pressionar *Enter* e tratamento de erros.
+  - Botões rápidos para **copiar o endereço** e **limpar a busca**.
+- **Código:** HTML semântico e estrutura JS reorganizada.
+
+---
+
+## Tecnologias Utilizadas
+- **HTML5** & **CSS3**
+- **JavaScript (Vanilla)**
+- **API ViaCEP**
 
 ---
 
@@ -27,49 +47,4 @@ A aplicação permite consultar endereços utilizando a API ViaCEP de forma ráp
 
 ---
 
-## Melhorias realizadas
-
-- Interface redesenhada
-- Layout responsivo
-- HTML semântico
-- Organização do código
-- Validação do CEP
-- Máscara de entrada
-- Busca utilizando a API ViaCEP
-- Busca ao pressionar Enter
-- Tratamento de erros
-- Botão para copiar o endereço
-- Botão para limpar a consulta
-
----
-
-## Tecnologias utilizadas
-
-- HTML5
-- CSS3
-- JavaScript
-- API ViaCEP
-
----
-
-## Acesso ao projeto
-
-**Site**
-
-https://laryssasouzacs.github.io/BuscaCEP/
-
-**Repositório**
-
-https://github.com/laryssasouzacs/BuscaCEP.git
-
----
-
-## Contexto
-
-Este projeto faz parte da refatoração dos trabalhos desenvolvidos durante o curso **Técnico em Desenvolvimento de Sistemas**.
-
-A proposta foi transformar um exercício acadêmico em uma aplicação mais próxima de um projeto de portfólio, aplicando boas práticas de HTML, CSS e JavaScript, além de melhorias na interface e na experiência do usuário.
-
----
-
-**Laryssa Souza**
+**Desenvolvido por:** Laryssa Souza
