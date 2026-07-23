@@ -45,6 +45,3 @@ Aplicação web para consulta rápida de endereços brasileiros via API **ViaCEP
 
 <img width="600" height="355" alt="image" src="https://github.com/user-attachments/assets/9f48aa9f-ebc1-40a6-a2c8-5aa8b589e335" />
 
----
-
-**Desenvolvido por:** Laryssa Souza
